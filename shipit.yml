@@ -3,3 +3,6 @@ review:
     - Did you check it?
 merge:
   method: squash
+deploy:
+  override:
+    - echo "Deployed!"
