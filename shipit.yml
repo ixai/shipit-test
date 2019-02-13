@@ -1,2 +1,5 @@
+review:
+  checklist:
+    - Did you check it?
 merge:
   method: squash
