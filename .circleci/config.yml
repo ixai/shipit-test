@@ -1,0 +1,16 @@
+version: 2
+
+jobs:
+  lint:
+    docker:
+    - image: python:latest
+    steps:
+    - checkout
+    - run: |
+        echo "lint"
+        
+workflows:
+  version: 2
+  continuous_integration:
+    jobs:
+    - lint
